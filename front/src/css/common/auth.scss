@@ -1,0 +1,143 @@
+@import "constants.scss";
+@import "init.scss";
+body{
+  background: pink;
+}
+.mask-wrapper{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(0,0,0,0.6);
+  overflow-y: scroll;
+  display: none;
+  z-index: 101;
+
+
+  .auth-wrapper{
+    $authWrapperHeight:520px;
+    $authWrapperWidth:400px;
+    width: $authWrapperWidth;
+    height: $authWrapperHeight;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -$authWrapperHeight/2;
+    margin-left: -$authWrapperWidth/2;
+
+    .close-wrapper{
+      width: 100%;
+      height: 40px;
+      background: #fff;
+
+      .close-btn{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-top: 8px;
+        color: $assistFontColor;
+        font-size: 25px;
+        cursor: pointer;
+      }
+    }
+
+    .auth-inner-wrapper{
+      width: 100%;
+      height: $authWrapperHeight - 40px;
+      position: relative;
+      overflow: hidden;
+
+      .scroll-wrapper{
+        width: $authWrapperWidth*2;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        .auth-group{
+          width: $authWrapperWidth;
+          padding: 0 20px 20px;
+          box-sizing: border-box;
+          .top-group{
+            height: 36px;
+            border-bottom: 1px solid $lineColor;
+            line-height: 33px;
+
+            .title{
+              float: left;
+              color: $mainFontColor;
+
+              border-bottom: 3px solid $themeColor;
+            }
+            .switch{
+              float: right;
+              color: $themeColor;
+            }
+          }
+
+          .form-group{
+            margin-top: 20px;
+            .input-group{
+              margin-bottom: 20px;
+              height: 40px;
+              .form-control{
+                border: 1px solid #cccccc;
+                padding: 10px;
+                width: 100%;
+                box-sizing: border-box;
+                height: 40px;
+                outline: none;
+              }
+              .remember-label{
+                font-size: 14px;
+              }
+              .submit-btn{
+                width: 100%;
+                height: 40px;
+                background: $themeColor;
+                border: none;
+                color: white;
+                cursor: pointer;
+              }
+              .short-input-group{
+                  width: 250px;
+                  float: left;
+              }
+              .input-group-addon{
+                float: right;
+                width: 100px;
+                .sms-captcha-btn{
+                  width: 100%;
+                  height: 40px;
+                  border: 1px solid $themeColor;
+                  color: $themeColor;
+                  display: inline-block;
+                  text-align: center;
+                  line-height: 40px;
+                  box-sizing: border-box;
+                  cursor: pointer;
+                }
+                .disabled{
+                  color: #ccc;
+                  border-color: #ccc;
+                }
+              }
+            }
+          }
+        }
+
+        .signin-group{
+          float: left;
+          background: white;
+        }
+        .signup-group{
+          float: left;
+          background: white;
+        }
+
+      }
+    }
+  }
+}

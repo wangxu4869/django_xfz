@@ -1,0 +1,66 @@
+@import "../common/init.scss";
+@import "../common/header.scss";
+@import "../common/body.scss";
+@import "../common/footer.scss";
+
+.main{
+    .wrapper{
+        .main-content-wrapper{
+            .advertise-group{
+                width: 100%;
+                height: 200px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .document-list{
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding: 20px;
+                background: #fff;
+                li{
+                    width: 370px;
+                    height: 150px;
+                    border: 1px solid #ccc;
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    .category-group{
+                        width: 100px;
+                        height: 150px;
+                        background-size: 100%;
+                        background-position: 0 0;
+                        float: left;
+                    }
+                    .document-info{
+                        float: left;
+                        padding: 10px;
+                        position: relative;
+                        width: 270px;
+                        height: 150px;
+                        box-sizing: border-box;
+                        .document-title{
+                            color: $mainFontColor;
+                            font-size: 16px;
+                        }
+                        .document-desc{
+                            color: $assistFontColor;
+                            font-size: 14px;
+                            margin-top: 20px;
+                        }
+                        .document-price{
+                            position: absolute;
+                            left: 0;
+                            right: 20px;
+                            bottom: 20px;
+                            color: #f76363;
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
