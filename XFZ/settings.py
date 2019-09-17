@@ -77,9 +77,9 @@ TEMPLATES = [
                 'django.templatetags.static'
             ],
             #uwsgi运行时过滤器报错找不到已经注册的自定义过滤器，按网上在此处再添加注册过滤器
-            'libraries':{
-                'my_customer_tags':'news.templatetags.news_filters'
-            }
+            # 'libraries':{
+            #     'my_customer_tags':'news.templatetags.news_filters'
+            # }
         },
     },
 ]

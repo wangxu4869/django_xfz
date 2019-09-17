@@ -72,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XFZ/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+            <state relative-caret-position="370">
+              <caret line="80" column="58" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -235,8 +235,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="216" />
-    <option name="y" value="59" />
+    <option name="x" value="380" />
+    <option name="y" value="28" />
     <option name="width" value="1519" />
     <option name="height" value="1096" />
   </component>
@@ -454,12 +454,12 @@
       <workItem from="1568510522046" duration="12022000" />
       <workItem from="1568589180029" duration="9955000" />
       <workItem from="1568684887545" duration="2478000" />
-      <workItem from="1568692494018" duration="5269000" />
+      <workItem from="1568692494018" duration="5547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301628000" />
+    <option name="totallyTimeSpent" value="301906000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,7 +471,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="306" y="43" width="1225" height="884" extended-state="0" />
+    <frame x="175" y="48" width="1225" height="884" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29477292" />
@@ -913,8 +913,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/XFZ/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+        <state relative-caret-position="370">
+          <caret line="80" column="58" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
         </state>
       </provider>
     </entry>
