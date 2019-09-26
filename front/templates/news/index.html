@@ -14,12 +14,13 @@
         {{ each newses news index }}
             <li>
                 <div class="thumbnail-group">
-                    <a href="/news/{{ news.id }}/">
+{#                    此处动态渲染出的新闻需要手动加int:#}
+                    <a href="/news/int:{{ news.id }}/">
                         <img src="{{ news.thumbnail }}" alt="">
                     </a>
                 </div>
                 <div class="news-group">
-                    <p class="title"><a href="/news/{{ news.id }}/">{{ news.title }}</a></p>
+                    <p class="title"><a href="/news/int:{{ news.id }}/">{{ news.title }}</a></p>
                     <p class="desc">{{ news.desc }}</p>
                     <p class="more">
                         <span class="category">{{ news.category.name }}</span>
