@@ -14,7 +14,6 @@
         {{ each newses news index }}
             <li>
                 <div class="thumbnail-group">
-{#                    此处动态渲染出的新闻需要手动加int:#}
                     <a href="/news/int:{{ news.id }}/">
                         <img src="{{ news.thumbnail }}" alt="">
                     </a>
